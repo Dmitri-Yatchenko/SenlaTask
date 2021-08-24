@@ -12,9 +12,8 @@ public class Main {
 
         String line =  scanner.nextLine();
 
-        NumberTriplets numberTriplets = new NumberTriplets();
         System.out.println("Заданная сторока: " + line);
-        System.out.println("Количество \"троек\" в заданной строке: " + numberTriplets.numberOfTriplets(line));
+        System.out.println("Количество \"троек\" в заданной строке: " + NumberTriplets.numberOfTriplets(line));
 
     }
 
